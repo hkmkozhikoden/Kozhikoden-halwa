@@ -1,0 +1,80 @@
+.catagory-head-sec{
+    background-color: #edecec;
+}
+.catagory-head-sec .sm-card{
+    padding: 20px 20px;
+    text-align: center;
+}
+.catagory-head-sec .sm-card .cata-img{
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+/*  */
+.pro-halwa-sec .halwa-card{
+    border-radius: 20px;
+    overflow: hidden;
+    /* padding: 10px 10px; */
+    border: 10px solid #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.pro-halwa-sec .halwa-card:hover .halwa-img{
+    transform: scale(1.1);
+}
+.pro-halwa-sec .halwa-card:hover .cont{
+color: #fc0909;
+transition:.5s;
+}
+.pro-halwa-sec .halwa-card .cont{
+    transition:.5s;
+}
+.pro-halwa-sec .halwa-card .halwa-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform .5s ease-in-out;
+}
+.pro-halwa-sec .halwa-card:hover .img-card::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.412);
+}
+.pro-halwa-sec .halwa-card .card-bottom{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    opacity: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    /* background-color: rgba(255, 255, 255, 0.422); */
+    border-radius: 0px 0px 10px 10px ;
+    /* padding: 10px 10px; */
+}
+.pro-halwa-sec .halwa-card:hover .card-bottom{
+    opacity: 1;
+    transition: all 0.3s;
+}
+.pro-halwa-sec .halwa-card .card-bottom .btn{
+    background-color: #fc0909;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+.pro-halwa-sec .halwa-card .card-top{
+    padding: 3px 10px;
+    border-radius: 4px;
+    background-color: #fc0909;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+}
+/* / */
