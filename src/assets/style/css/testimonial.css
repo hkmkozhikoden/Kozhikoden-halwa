@@ -1,0 +1,26 @@
+.testimonial-sec .slick-slide .card{
+    padding: 30px 35px;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+.testimonial-sec .card .user-img{
+    max-width: 100%;
+    width: 30px;
+    height: 30px;
+}
+.testimonial-sec .slick-arrow {
+    background-color: #ffffff;
+    width: 34px;
+    height: 38px;
+    top: 0px;
+    border-radius: 10px;
+}
+.testimonial-sec .slick-prev:before, .testimonial-sec .slick-next:before {
+    font-size: 24px;
+    color: rgb(0, 0, 0) !important;
+}
+
+.testimonial-sec .slick-prev{
+    right: 30px;
+    left: 95%;
+}

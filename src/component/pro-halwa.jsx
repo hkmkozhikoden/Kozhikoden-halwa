@@ -8,6 +8,14 @@ import Halwa5 from '../assets/images/halwa/2.jpg';
 import Halwa6 from '../assets/images/halwa/4.jpg';
 import Halwa7 from '../assets/images/halwa/6.jpg';
 import Halwa8 from '../assets/images/halwa/8.jpg';
+import Halwa9 from '../assets/images/halwa/13.webp';
+import Halwa10 from '../assets/images/halwa/14.jpg';
+import Halwa11 from '../assets/images/halwa/15.jpg';
+import Halwa12 from '../assets/images/halwa/16.jpg';
+import Halwa13 from '../assets/images/halwa/17.jpg';
+import Halwa14 from '../assets/images/halwa/18.jpg';
+import Halwa15 from '../assets/images/halwa/19.jpg';
+
 
 
 
@@ -21,6 +29,13 @@ const products = [
   { id: 6, name: 'Black Halwa',  rate:'100', discount: '25%', image: Halwa6 },
   { id: 7, name: 'Watermelon Halwa',  rate:'100', discount: '13%', image: Halwa7 },
   { id: 8, name: 'Anar Halwa',  rate:'100', discount: '13%', image: Halwa8 },
+  { id: 9, name: 'Red Halwa',  rate:'100', discount: '12%', image: Halwa9 },
+  { id: 10, name: 'Pistha Halwa',  rate:'100', discount: '23%', image: Halwa10 },
+  { id: 11, name: 'Badham Halwa',  rate:'100', discount: '21%', image: Halwa11 },
+  { id: 12, name: 'Yellow Halwa',  rate:'100', discount: '10%', image: Halwa12 },
+  { id: 13, name: 'Mango Halwa',  rate:'100', discount: '10%', image: Halwa13 },
+  { id: 14, name: 'Pinapple Halwa',  rate:'100', discount: '10%', image: Halwa14 },
+  { id: 15, name: 'Black Halwa',  rate:'100', discount: '10%', image: Halwa15 },
 
 
 ];
@@ -31,7 +46,7 @@ function ProductHalwa() {
       <div className="container">
         <div className="row">
             <div className="col-12"  data-aos="fade-down" data-aos-offset="10">
-                <h5 className='text-uppercase poppins-semibold ms-3 mb-3'>Halwas</h5>
+                <h5 className='poppins-semibold ms-3 mb-3'>Halwas</h5>
             </div>
           {products.map((product) => (
             <div className="col-md-3 mb-3" data-aos="fade-up" data-aos-offset="10" key={product.id}>

@@ -18,7 +18,7 @@ function CatagoryHead() {
       <div className="container">
         <div className="row">
             <div className="col-12">
-                <h4 className='text-uppercase poppins-semibold'>Catagories</h4>
+                <h4 className='poppins-semibold'>Catagories</h4>
             </div>
           {categories.map((category) => (
             <div className="col-md-3" key={category.id}>
